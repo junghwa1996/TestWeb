@@ -1,0 +1,114 @@
+/* #wrap {max-width: 1200px; margin: 0 auto;} */
+
+.Nanum{font-family: 'Nanum Gothic', sans-serif;}
+.Tmon{ font-family: 'TmonMonsori'; }
+.DreamR{font-family: 'S-CoreDream-4Regular';}
+.DreamB{font-family: 'S-CoreDream-6Bold';}
+
+/* Font set */
+
+@keyframes fade-in{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes fade-in-left{
+    0%{opacity: 0; transform: translateX(-50px);}
+    100%{opacity: 1; transform: translateX(0px);}
+}
+@keyframes fade-in-top{
+    0%{opacity: 0; transform: translateY(-50px);}
+    100%{opacity: 1; transform: translateY(0px);}
+}
+@keyframes fade-in-right{
+    0%{opacity: 0; transform: translateX(50px);}
+    100%{opacity: 1; transform: translateX(0px);}
+}
+@keyframes fade-in-bottom{
+    0%{opacity: 0; transform: translateY(50px);}
+    100%{opacity: 1; transform: translateY(0px);}
+}
+@keyframes twis{
+    0%{opacity: 0; transform: perspective(2500px) rotateY(-100deg);}
+    100%{opacity: 1; transform: perspective(2500px) rotateY(0);}
+}
+
+/* keyframes */
+
+.animate{
+    animation: fade-in .5s forwards ease-in;
+    transition: .5s ease-in-out;
+}
+.animate_left{
+    animation: fade-in-left .5s forwards ease-in;
+    transition: .5s ease-in-in;
+}
+.animate_top{
+    animation: fade-in-top .5s forwards ease-in;
+    transition: .5s ease-in;
+}
+.animate_right{
+    animation: fade-in-right .5s forwards ease-in;
+    transition: .5s ease-in-in;
+}
+.animate_bottom{
+    animation: fade-in-bottom .5s forwards ease-in;
+    transition: .5s ease-in;
+}
+.animate_twis{
+    animation: twis .5s forwards ease-in;
+    transition: .5s ease-in;
+}
+
+
+.d_300{
+    animation-delay: .3s;
+}
+.d_600{
+    animation-delay: .6s;
+}
+.d_900{
+    animation-delay: .9s;
+}
+.d_1200{
+    animation-delay: 1.2s;
+}
+.d_1500{
+    animation-delay: 1.5s;
+}
+.d_1800{
+    animation-delay: 1.8s;
+}
+.d_2100{
+    animation-delay: 2.1s;
+}
+
+
+.best img,
+.galaxy img,
+.phoneimg img,
+.space img{
+    width: 100%;
+}
+
+.consultingwrap,
+.guide,
+.waywrap,
+.deliverywrap,
+.footerwrap{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.bestctn h1,
+.bestctn p,
+.galaxyctn p,
+.realctn div,
+.spacewrap h2,
+.itemwrap img:first-child,
+.itemwrap img:nth-child(2),
+.logo img,
+.general_01_ico img,
+.general_02_ico img,
+.deliveryico div{
+    opacity: 0;
+}

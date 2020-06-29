@@ -1,0 +1,18 @@
+@import url("reset.css");
+/* html 초기화 */
+@import url("global.css");
+/* 공통요소 */
+@import url("page.css");
+/* 페이지 */
+
+
+/* font */
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+/* 나눔고딕 */
+@font-face { font-family: 'TmonMonsori'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 몬소리체 */
+@font-face { font-family: 'S-CoreDream-4Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 에스코어드림체  R*/
+@font-face { font-family: 'S-CoreDream-6Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+/* 에스코어드림체 B*/
