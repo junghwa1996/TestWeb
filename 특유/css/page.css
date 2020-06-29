@@ -130,6 +130,7 @@
 }
 .itemwrap img{
     width: 45%;
+    height: 100%;
     padding: 2vw;
     cursor: pointer;
 }
