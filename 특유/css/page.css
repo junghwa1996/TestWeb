@@ -362,7 +362,7 @@ input{
 
 
 .event{
-    font-size: 2vw;
+    font-size: 3vw;
     color: red;
     line-height: 10vw;
     border-bottom: 1px solid #eeeeee;
@@ -384,7 +384,7 @@ input{
     margin-right: 2vw;
 }
 .ckecktitle p{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .txt textarea{
     width: 100%;
