@@ -414,7 +414,7 @@ input {
        -moz-appearance: none;
             appearance: none;
 }
-select {
+select,textarea{
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
