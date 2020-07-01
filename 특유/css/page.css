@@ -406,8 +406,21 @@ input{
     font-size: 3vw;
 }
 
-input[type="submit"],option,
-input[type="ckeckbox"]{-webkit-appearance:none;}
+/* ------ioc style reset */
+
+input[type="submit"]{-webkit-appearance:none;}
+input[type='checkbox']{-webkit-appearance:checkbox}
+input {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+select {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+/* ------ioc style reset */
 
 
 /* form Fin */
