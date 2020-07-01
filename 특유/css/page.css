@@ -308,9 +308,9 @@
     margin-bottom: 1vw;
 }
 .calltext p{
-    font-size: 2vw;
-    line-height: 5vw;
-    width: 70%;
+    font-size: 3vw;
+    line-height: 4vw;
+    width: 80%;
 }
 
 .formctn{
@@ -319,7 +319,7 @@
 }
 
 .formctn form fieldset legend{
-    font-size: 2vw;
+    font-size: 3vw;
     margin-bottom: 1vw;
 }
 .formctn form fieldset hr{
@@ -338,8 +338,9 @@
 }
 
 
-.formctn form fieldset label{
-    font-size: 2vw;
+.formctn form fieldset label,
+.formctn form fieldset label::placeholder{
+    font-size: 3vw;
 }
 input{
     padding-left: 1vw;
@@ -356,7 +357,7 @@ input{
 .formctn form fieldset option,
 #NewsAgency,
 .formctn form fieldset input::placeholder{
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 
