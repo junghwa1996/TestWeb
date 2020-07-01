@@ -337,6 +337,7 @@
     align-items: center;
 }
 
+
 .formctn form fieldset label{
     font-size: 2vw;
 }
@@ -348,10 +349,16 @@ input{
 .formctn form fieldset select,
 .formctn form fieldset input{
     width: 70%;
-    height: 30px;
+    height: 6vw;
     border: 1px solid #eeeeee;
     border-radius: 5px;
 }
+.formctn form fieldset option,
+#NewsAgency,
+.formctn form fieldset input::placeholder{
+    font-size: 2vw;
+}
+
 
 .event{
     font-size: 2vw;
@@ -380,7 +387,7 @@ input{
 }
 .txt textarea{
     width: 100%;
-    height: 100px;
+    height: 15vw;
     font-size: 2vw;
     
 }
