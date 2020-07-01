@@ -406,8 +406,8 @@ input{
     font-size: 3vw;
 }
 
-input[type="submit"],select option,
-input[type="ckeck"]{-webkit-appearance:none;}
+input[type="submit"],option,
+input[type="ckeckbox"]{-webkit-appearance:none;}
 
 
 /* form Fin */
