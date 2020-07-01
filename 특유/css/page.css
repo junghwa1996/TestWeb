@@ -194,6 +194,7 @@
     background-color: #eeeeee;
     padding: 5vw 0;
     position: relative;
+    text-align: center;
 }
 .line{
     width: 100%;
@@ -231,12 +232,13 @@
     border-radius: 1vw;
 }
 .general_01 p,.general_02 p{
-    line-height: 10vw;
+    /* line-height: 10vw; */
     margin-bottom: 3vw;
 }
 .general_01_ico,.general_02_ico{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .general_01_ico img:nth-child(2n+1),.general_02_ico img:nth-child(2n+1){
     width: 15%;
