@@ -181,9 +181,88 @@
         <!-- delivery Fin -->
 
         <div class="form">
+            <div class="formwrap">
+                <div class="calltext">
+                    <img src="images/ico_form_call.png" alt="ico">
+                    <h2 class="Tmon">전화상담 신청</h2>
+                    <p class="DreamR">신청시 희망기종의 재고 확인 후 상담전화를 드립니다.<br>
+                                      진짜 최저가가 얼마인지 확인만 해보셔도 되니<br>
+                                      실가격 정보 충분히 얻어가세요
+                    </p>
+                </div>
+                <div class="formctn">
+                    <form>
+                        <fieldset class="DreamR">
+                            <legend>정확한 상담을 위해 아래의 정보를 입력해 주세요.</legend>
+                            <hr>
+                            <div class="Agency">
+                                <label for="text">현재 통신사</label>
+                                <select name="NewsAgency" id="NewsAgency" class="DreamR">
+                                    <option value="SK">SK텔레콤</option>
+                                    <option value="KT">올레KT</option>
+                                    <option value="LG">LG U+</option>
+                                </select>
+                            </div>
+                            <div class="phonetype">
+                                <label for="text">희망기종</label>
+                                <select name="NewsAgency" id="NewsAgency" class="DreamR">
+                                    <option value="" disabled selected>희망기종을 선택 해주세요.</option>
+                                    <option value="GalaxyS20">Galaxy S20 5G[128G]</option>
+                                    <option value="GalaxyS20+">Galaxy S20+ 5G[256G]</option>
+                                    <option value="GalaxyS20Ultra">Galaxy S20 Ultra 5G</option>
+                                    <option value="GalaxyNote10">갤럭시 노트 10 256G</option>
+                                    <option value="iphone11">iPhone 11 64G</option>
+                                    <option value="iphone11Pro">iPhone 11 Pro 64G</option>
+                                    <option value="iphone11ProMax">iPhone 11 Pro Max 64G</option>
+                                    <option value="iphoneSE">iPhone SE 64G</option>
+                                </select>
+                            </div>
+                            <div class="userName">
+                                <label for="username">이름</label>
+                                <input id="username" name="name"  type="text" placeholder="이름을 입력해 주세요." class="DreamR">
+                            </div>
+                            <div class="phoneNumber">
+                                <label for="phoneNumber">연락처</label>
+                                <input id="phoneNumber" name="phoneNumber"  type="tel" placeholder="연락처를 입력해 주세요." class="DreamR">
+                            </div>
+                            <p class="event DreamR">미성년자 참여 불가능한 이벤트 입니다.</p>
+                            <div class="ckeckbox">
+                                <div class="ckecktitle">
+                                    <input type="checkbox" name="chk"> 
+                                    <p class="DreamR">개인정보 수집 및 이용에 동의합니다(필수)</p>
+                                </div>
+                                <div class="txt">
+                                    <textarea name="checkboxctn" id="checkboxctn">
+"본인은 포유다온기기변경센터(이하 '회사'라 합니다)가 포유폰에서 제공하는 상담서비스(이하 '서비스'라 합니다)를 이용하기 위해, 다음과 같이 '회사'가 본인의 개인정보를 수집/이용하는 것에 동의합니다.
 
-            <!-- form 작성해주세요. -->
+1. 수집항목
+- 이용자의 전화번호, 단말기/상품 종류, 색상
+- 이용자의 상담내용
 
+2. 이용목적
+- 이동통신 서비스 , 이동전화 단말기 및 홈&미디어 상품 등 에 대한 개인맞춤형 상담
+- 카카오톡 상담을 위한 문자발송 및 안내
+- 이동통신 서비스 가입, 이동전화 단말기 구매 및 홈&미디어 상품 가입을 위한 Outbound 상담
+
+3. 개인정보의 보유기간 및 이용기간
+- 이용자가 '서비스'를 이용하는 기간에 한하여 보유 및 이용
+- 법령에서 정하는 경우 해당 기간까지 보유
+
+※ 본 동의는 서비스의 본질적 기능 제공을 위한 개인정보 수집/이용에 대한 동의로서, 동의하지 않으실 경우 서비스 제공이 불가능합니다.
+※ 법령에 따른 개인정보의 수집/이용, 계약의 이행/편의증진을 위한 개인정보 처리위탁 및 개인정보 처리와 관련된 일반사항은 '회사'의 개인정보 처리방침에 따릅니다.
+
+위 내용을 숙지하였으며, 이에 동의합니다."
+                                        
+                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <input type="submit" value="신청하기" class="DreamR">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
         </div>
         <!-- form Fin -->
 
