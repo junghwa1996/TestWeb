@@ -351,7 +351,7 @@ input{
     width: 70%;
     height: 6vw;
     border: 1px solid #eeeeee;
-    border-radius: 5px;
+    border-radius: 1vw;
 }
 .formctn form fieldset option,
 #NewsAgency,
@@ -378,8 +378,8 @@ input{
     padding-bottom: 2vw;
 }
 .ckecktitle input[type="checkbox"]{
-    width: 3vw;
-    height: 3vw;
+    width: 5vw;
+    height: 5vw;
     margin-right: 2vw;
 }
 .ckecktitle p{
