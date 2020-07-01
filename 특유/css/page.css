@@ -406,8 +406,8 @@ input{
     font-size: 3vw;
 }
 /* ------ioc style reset */
-/* 
-input[type="submit"]{-webkit-appearance:none;}
+
+input[type="submit"],input[type="tel"]{-webkit-appearance:none;}
 input[type='checkbox']{-webkit-appearance:checkbox}
 input {
     -webkit-appearance: none;
@@ -418,7 +418,8 @@ select {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-} */
+}
+
 /* ------ioc style reset */
 
 
