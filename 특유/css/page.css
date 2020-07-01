@@ -406,7 +406,7 @@ input{
     font-size: 3vw;
 }
 
-/* ------ioc style reset */
+/* ------ios style reset */
 
 input[type="submit"]{-webkit-appearance:none;}
 input[type='checkbox']{-webkit-appearance:checkbox}
@@ -420,7 +420,7 @@ select {
        -moz-appearance: none;
             appearance: none;
 }
-/* ------ioc style reset */
+/* ------ios style reset */
 
 
 /* form Fin */
