@@ -406,6 +406,8 @@ input{
     font-size: 3vw;
 }
 
+input[type=submit] {-webkit-appearance:none;}
+
 
 /* form Fin */
 
