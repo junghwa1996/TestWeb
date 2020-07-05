@@ -73,28 +73,3 @@ aside .aside_Wrap ul li a{color: #707070; font-size: 15px;}
 aside .aside_Wrap ul li:hover a{color: #fff;}
 
 /* aside Fin */
-
-.Main{position: relative; height: 550px;}
-.Main > .bx-wrapper{width: 1000px; position: absolute; top: 0; right: 0; height: 500px; border: none; box-shadow: none; background-color: #eeeeee;}
-.Main .bx-controls-direction{display: none;}
-.Main > .bx-wrapper .bx-pager{bottom: 20px;}
-.Main > .bx-wrapper .bx-pager.bx-default-pager a{transition: all .5s ease; background-color: #000000;}
-.Main > .bx-wrapper .bx-pager.bx-default-pager a.active{width:30px; transition: all .5s ease; background-color: #fff;}
-
-/* Main Fin */
-.Main_Banner{margin-bottom: 100px;}
-.Main_Banner .Main_Banner_Wrap{display: flex; justify-content: space-between;}
-.Main_Banner .Main_Banner_Wrap .left{ width: 50%; height: 100%;}
-.Main_Banner .Main_Banner_Wrap .left .long{width: 100%; padding-bottom: 30px;}
-.Main_Banner .Main_Banner_Wrap .left .long a{display: block;}
-.Main_Banner .Main_Banner_Wrap .left ul{width: 100%; display: flex; height: 50%; justify-content: space-between;}
-.Main_Banner .Main_Banner_Wrap .left ul li{width: 47%;}
-.Main_Banner .Main_Banner_Wrap .left ul li a{display: block;}
-.Main_Banner .Main_Banner_Wrap .left ul li a img{width: 100%;}
-.Main_Banner .Main_Banner_Wrap .right{width: 48%;}
-.Main_Banner .Main_Banner_Wrap .right .bx-wrapper{ border: none; box-shadow: none; margin: 0;}
-.Main_Banner .Main_Banner_Wrap .right .bx-wrapper .bx-pager{bottom: 20px;}
-/* .Main_Banner .Main_Banner_Wrap .right .bx-viewport{height: 100%;} */
-/* .Main_Banner .Main_Banner_Wrap .right .BannerSlide{width:600px; height: 600px;} */
-.Main_Banner .Main_Banner_Wrap .right .BannerSlide div{background-color: #000000;}
-
