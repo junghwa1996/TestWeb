@@ -46,7 +46,7 @@ header .header_Wrap .right .search input[type="text"].open{padding: 5px 15px; wi
 /* header Fin */
 
 .Fixd_Nav{background-color: #fff; border-top: 1px solid #eeeeee; border-bottom: 1px solid #eeeeee; box-sizing: border-box; /*position: fixed;*/}
-.Fixd_Nav .Fixd_Nav_Wrap{display: flex; justify-content: space-between; position: relative; height: 60px;}
+.Fixd_Nav .Fixd_Nav_Wrap{display: flex; justify-content: space-between; position: relative; height: 60px; z-index: 10000;}
 .Fixd_Nav .Fixd_Nav_Wrap a{color: #404040; font-size: 15px;font-weight: bold;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child{display: flex;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All{background-color: #000000; display: flex; align-items: center; width: 200px;}
