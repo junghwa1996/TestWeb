@@ -6,25 +6,27 @@
     <title>RRR</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/import.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/fixd.js"></script>
     <script src="js/main_ctn.js"></script>
 
 </head>
 <body>
     <div class="wrap">
-        <div class="Top_Banner">
-            <div class="Top_Banner_Wrap">
+        <div class="Top_Banner width_100">
+            <div class="Top_Banner_Wrap inner">
                 <img src="https://via.placeholder.com/1200x80" alt="Top_Banner">
             </div>
         </div>
         <!-- 최상단 배너 (이미지 크기 1200x80) -->
 
-        <nav class="Top_Nav">
-            <div class="Top_Nav_Wrap">
+        <nav class="Top_Nav width_100">
+            <div class="Top_Nav_Wrap inner">
                 <div class="link">
                     <ul>
                         <li><a href="#">즐겨찾기</a></li>
@@ -61,8 +63,8 @@
         </nav>
         <!-- 최상단 메뉴 -->
 
-        <header>
-            <div class="header_Wrap">
+        <header class="width_100">
+            <div class="header_Wrap inner">
                 <h1>YOUR LOGO</h1>
                 <div class="right">
                     <div class="search">
@@ -84,8 +86,8 @@
         </header>
         <!-- 로고+서치+카트 -->
 
-        <nav class="Fixd_Nav">
-            <div class="Fixd_Nav_Wrap">
+        <nav class="Fixd_Nav width_100">
+            <div class="Fixd_Nav_Wrap inner">
                 <div>
                     <div class="All">
                         <div class="All_view">
@@ -121,7 +123,7 @@
         </nav>
         <!-- 고정 메뉴  -->
 
-        <aside>
+        <aside class="inner">
             <div class="aside_Wrap">
                 <ul>
                     <li><a href="#">대메뉴01</a></li>
@@ -136,7 +138,7 @@
             </div>
         </aside>
         <!-- 왼쪽 메뉴 -->
-        <div class="Main">
+        <div class="Main inner">
             <div class="Main_slider">
                 <div>
                     <img src="images/img_main01.jpg" alt="main_img">
@@ -151,40 +153,794 @@
         </div>
         <!-- 메인 슬라이더 이미지(1000x500) 고정 사이즈  -->
 
-        <div class="Main_Banner">
+        <div class="Main_Banner width_100 inner">
             <div class="Main_Banner_Wrap">
                 <div class="left">
                     <div class="long">
-                        <a href="#">
-                            <img src="images/img_banner01.jpg" alt="">
+                        <a href="#" class="hidden">
+                            <img src="images/img_banner01.jpg" alt="long_img" class="img_scale img_hover_remove">
+                            <!-- 600x300 -->
                         </a>
-                        <div class="lightBox"></div>
                     </div>
                     <ul>
                         <li>
-                            <a href="#"><img src="images/img_banner02.jpg" alt=""></a>
+                            <a href="#" class="hidden"><img src="images/img_banner02.jpg" alt="" class="img_scale img_hover_remove"></a>
+                            <!-- 290x280 -->
                         </li>
                         <li>
-                            <a href="#"><img src="images/img_banner03.jpg" alt=""></a>
+                            <a href="#" class="hidden"><img src="images/img_banner03.jpg" alt="" class="img_scale img_hover_remove"></a>
+                            <!-- 290x280 -->
                         </li>
                     </ul>
                 </div>
                 <div class="right">
                     <div class="BannerSlide">
-                        <div><a href=""><img src="images/img_bannerSlider01.jpg" alt=""></a></div>
-                        <div><a href=""><img src="images/img_bannerSlider01.jpg" alt=""></a></div>
+                        <div><a href="" class="hidden"><img src="images/img_bannerSlider01.jpg" alt="" class="img_scale img_hover_remove"></a></div>
+                        <!-- 580x600 -->
+                        <div><a href="" class="hidden"><img src="images/img_bannerSlider01.jpg" alt="" class="img_scale img_hover_remove"></a></div>
+                        <!-- 580x600 -->
                     </div>
                 </div>
             </div>
         </div>
-        <section class="recommend_slider"></section>
-        <div class="Banner_D_01"></div>
-        <section class="Item_List_5 Best"></section>
-        <section class="Item_List_4 Popularity"></section>
-        <section class="Item_List_4 New"></section>
-        <div class="Main_Video"></div>
-        <div class="text_Banner_slider"></div>
-        <section class="Item_List_5 Review"></section>
+        <!-- 메인 배너 + 배너 슬라이드 -->
+
+        <section class="recommend_slider width_100">
+            <div class="recommend_slider_wrap inner">
+                <h2>추천상품</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#" class="hidden"><img src="https://via.placeholder.com/300" alt="item" class="img_scale img_hover_remove"></a></div>
+                            <div>
+                                <dl>
+                                    <dt>상품명</dt>
+                                    <dd>상품설명</dd>
+                                </dl>
+                                <div class="money">
+                                    <span>5,000원</span>
+                                    <p>5,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <!-- recommend slider Fin -->
+
+        <div class="Banner_D_01 width_100">
+            <div class="Banner_D_01_wrap inner">
+                <div class="Banner_D_01_wrap_ctn left_text">
+                    <dl>
+                        <dt>TREND LIVING DIGITAL SHOP</dt>
+                        <dd>갖고 싶은 디자인! <span>최신 트렌드!</span></dd>
+                    </dl>
+                    <div class="btn">
+                        <a href="#">VIEW DETAIL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner_D_01 Fin -->
+
+        <section class="Item_List_5 width_100">
+            <div class="Item_List_5_wrap inner">
+                <dl>
+                    <dt><h2>베스트 상품</h2></dt>
+                    <dd>어디에서도 볼 수 없던 특별한 제품을 만나세요</dd>
+                </dl>
+                <div class="item_list">
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 베스트 상품 -->
+
+        <section class="Item_List_4_bg width_100">
+            <div class="Item_List_4_bg_wrap inner">
+                <dl>
+                    <dt><h2>인기 상품</h2></dt>
+                    <dd>어디에서도 볼 수 없던 특별한 제품을 만나세요</dd>
+                </dl>
+                <div class="item_list">
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 인기 상품 -->
+
+        <section class="Item_List_4 width_100">
+            <div class="Item_List_4_wrap inner">
+                <dl>
+                    <dt><h2>신상품</h2></dt>
+                    <dd>따끈따근 신상품! 지금당장 만나보세요!</dd>
+                </dl>
+                <div class="item_list">
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>상품명</p>
+                        <p>5,000원</p>
+                        <p>5,000원</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 신상품 -->
+
+        <div class="Main_Video width_100">
+            <div class="Main_Video_Wrap inner">
+                <div class="left">
+                    <iframe width="1271" height="715" src="https://www.youtube.com/embed/WLv4XYGDoRk?rel=0;amp;autoplay=1&amp;loop=1;playlist=WLv4XYGDoRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="right left_text">
+                    <dl>
+                        <dt>TREND LIVING DIGITAL SHOP</dt>
+                        <dd>갖고 싶은 디자인! <span>최신 트렌드!</span></dd>
+                    </dl>
+                    <div class="btn">
+                        <a href="#">VIEW DETAIL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 유튜브 영상 -->
+
+        <div class="text_Banner width_100">
+            <div class="text_Banner_bg inner">
+                <div class="text_Banner_slider">
+                    <div>
+                        <dl>
+                            <dt>이벤트 안내 입니다</dt>
+                            <dd><span>대표 텍스트 배너</span>를 입력해주세요.</dd>
+                        </dl>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>이벤트 안내 입니다</dt>
+                            <dd><span>배너</span>를 입력해주세요.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 텍스트 배너 -->
+
+        <section class="Item_List_4_border width_100">
+            <div class="Item_List_4_border_wrap inner">
+                <dl>
+                    <dt><h2>상품 후기</h2></dt>
+                    <dd>고객들의 생생한 후기를 만나보세요</dd>
+                </dl>
+                <div class="item_list">
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                    <div class="item">
+                        <a href="" class="hidden"><img src="https://via.placeholder.com/250" alt="item_img" class="img_scale img_hover_remove"></a>
+                        <div class="promotion">
+                            <img src="https://via.placeholder.com/35x15" alt="best_ico">
+                            <img src="https://via.placeholder.com/35x15" alt="new_ico">
+                        </div>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>고객들의 생생한 후기를 만나보세요</p>
+                        <p>2020-07-06</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <div class="instargram"></div>
         <div class="quick_menu Left"></div>
         <div class="quick_menu right"></div>
