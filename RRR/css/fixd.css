@@ -1,9 +1,4 @@
-body{min-width: 1200px;}
-.Top_Banner_Wrap,.Top_Nav_Wrap,.header_Wrap,.Fixd_Nav_Wrap,aside,.Main,.Main_Banner
-{max-width: 1200px; margin: 0 auto;}
 
-.Top_Banner,.Top_Nav,header,.Fixd_Nav,.Main_Banner_Wrap
-{width: 100%;}
 
 /* common */
 
@@ -21,7 +16,7 @@ body{min-width: 1200px;}
 .Top_Nav_Wrap .link ul li a i{font-size: 20px;}
 .Top_Nav_Wrap .link ul li .SubLink{position: absolute; display: flex; flex-direction: column; background-color: #fff; border: 1px solid #eeeeee; border-top: 1px solid #fff; text-align: center; top:40px; left:120px; visibility: hidden; opacity: 0;}
 .Top_Nav_Wrap .link ul li .SubLink a:hover{background-color: #eeeeee;}
-.Top_Nav_Wrap .link ul li:nth-child(3):hover .SubLink{opacity: 1; visibility:visible; transition: all .5s ease; z-index: 10;}
+.Top_Nav_Wrap .link ul li:nth-child(3):hover .SubLink{opacity: 1; visibility:visible; transition: all .5s ease; z-index: 100000;}
 
 .Top_Nav_Wrap .User{display: flex; position: relative;}
 .Top_Nav_Wrap .User .point{position: absolute; top:30px; right: 130px; animation: bounce 1s infinite;}
@@ -54,14 +49,15 @@ header .header_Wrap .right .search input[type="text"].open{padding: 5px 15px; wi
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All .All_view a{display: flex; align-items: center; color: #fff;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All .All_view a i{font-size: 25px; padding-left: 5px;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All .All_Menu{position: absolute; top: 60px; background-color: #000; width: 100%; visibility: hidden; transition: all .5s ease; opacity: 0;}
-.Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All .All_Menu.All_open{visibility: visible;transition: all .5s ease; opacity: 1;}
+.Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All:hover .All_Menu{visibility: visible;transition: all .5s ease; opacity: 1;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All .All_Menu .All_Wrap{width: 90%; margin: 0 auto; display: flex; justify-content: space-between;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All .All_Menu .All_Wrap > a{color: #fff; margin: 10px; padding: 10px;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child .All .All_Menu .All_Wrap > a:hover{background-color: #fff; color: #707070; border-radius: 20px;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child ul{display: flex; align-items: center;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:first-child ul li{margin: 0 20px;}
 .Fixd_Nav .Fixd_Nav_Wrap > div:last-child{height: 100%; border-bottom: 2px solid #000; display: flex; align-items: center; width:150px; justify-content: center;}
-/* .Fixd_Nav .Fixd_Nav_Wrap > div:last-child a{color: #fff;} */
+
+.fixed{position: fixed; width: 100%; top: 0; z-index: 1000000;}
 
 /* Fixd Nav Fin */
 aside{position: relative;}
